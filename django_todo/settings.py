@@ -3,8 +3,8 @@ import os
 import dj_database_url
 import env 
 
-if os.path.isfile("env.py"):
-    import env
+# if os.path.isfile("env.py"):
+#     import env
 
 """
 Django settings for django_todo project.
@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-8uth5pk=yq!r(wtiewpeb(0aw2-gw64el(9p0s4x7cun4y57gz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-krandon1986-cifsfhellod-qi8tcd17f4d.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['https://kar2786-djando-todo-app-fc321b0ca51f.herokuapp.com/']
 
 
 # Application definition
